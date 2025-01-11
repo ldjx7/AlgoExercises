@@ -56,8 +56,8 @@
     )
     
     func main() {
-    scanner := bufio.NewScanner(os.Stdin)
-    fmt.Println("请输入一行文本：")
+        scanner := bufio.NewScanner(os.Stdin)
+        fmt.Println("请输入一行文本：")
     
         if scanner.Scan() {
             input := scanner.Text()
